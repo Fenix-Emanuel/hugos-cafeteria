@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Latte HUGO'S">
+  <defs>
+    <linearGradient id="ltCup" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4EBDD"/><stop offset="1" stop-color="#D8C7AC"/></linearGradient>
+    <radialGradient id="ltFoam" cx="0.4" cy="0.35" r="0.7"><stop offset="0" stop-color="#F3E1BC"/><stop offset="1" stop-color="#C99764"/></radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#1A1716"/>
+  <ellipse cx="200" cy="330" rx="110" ry="18" fill="#000" opacity="0.3"/>
+  <path d="M120 190 L280 190 L266 320 Q200 336 134 320 Z" fill="url(#ltCup)"/>
+  <path d="M280 205 q46 -6 46 34 q0 42 -50 40" fill="none" stroke="#D8C7AC" stroke-width="12"/>
+  <ellipse cx="200" cy="192" rx="80" ry="18" fill="url(#ltFoam)"/>
+  <path d="M160 190 C170 178 190 178 200 190 C210 178 230 178 240 190" stroke="#8C5A20" stroke-width="4" fill="none" opacity="0.55" stroke-linecap="round"/>
+  <g opacity="0.7" stroke="#F4EBDD" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M170 150 q-6 -16 4 -28"><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3s" repeatCount="indefinite"/></path>
+    <path d="M200 146 q-6 -16 4 -28"><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3.4s" repeatCount="indefinite"/></path>
+    <path d="M230 150 q-6 -16 4 -28"><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="2.7s" repeatCount="indefinite"/></path>
+  </g>
+</svg>

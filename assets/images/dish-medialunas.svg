@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Medialunas de manteca">
+  <defs>
+    <linearGradient id="mlA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E7B15C"/><stop offset="1" stop-color="#B87A32"/></linearGradient>
+    <linearGradient id="mlB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D89A47"/><stop offset="1" stop-color="#A96A28"/></linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#1A1716"/>
+  <ellipse cx="200" cy="290" rx="150" ry="18" fill="#000" opacity="0.3"/>
+  <g transform="translate(120,175) rotate(-8)">
+    <path d="M0 50 C10 0 90 -20 130 10 C150 25 150 55 120 68 C80 86 20 84 0 50Z" fill="url(#mlB)"/>
+    <path d="M10 46 C40 20 90 10 118 26" stroke="#8C5A20" stroke-width="3" fill="none" opacity="0.55" stroke-linecap="round"/>
+    <path d="M18 56 C50 40 95 34 112 42" stroke="#8C5A20" stroke-width="3" fill="none" opacity="0.4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(150,120) rotate(-4)">
+    <path d="M0 55 C12 0 100 -22 145 10 C168 28 166 60 132 74 C88 92 22 90 0 55Z" fill="url(#mlA)"/>
+    <path d="M12 50 C46 20 100 10 132 28" stroke="#9A6526" stroke-width="3.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <path d="M20 62 C56 44 104 38 124 46" stroke="#9A6526" stroke-width="3.5" fill="none" opacity="0.45" stroke-linecap="round"/>
+    <ellipse cx="130" cy="18" rx="8" ry="5" fill="#F3D9A0" opacity="0.7"/>
+  </g>
+</svg>

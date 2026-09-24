@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Alfajores de maicena">
+  <defs>
+    <radialGradient id="alCookie" cx="0.4" cy="0.35" r="0.75"><stop offset="0" stop-color="#EFE0BE"/><stop offset="1" stop-color="#D8C093"/></radialGradient>
+    <linearGradient id="alDulce" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B9772E"/><stop offset="1" stop-color="#8F5A20"/></linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#1A1716"/>
+  <ellipse cx="200" cy="300" rx="140" ry="20" fill="#000" opacity="0.28"/>
+  <ellipse cx="150" cy="270" rx="80" ry="24" fill="url(#alCookie)"/>
+  <ellipse cx="150" cy="252" rx="76" ry="10" fill="url(#alDulce)"/>
+  <ellipse cx="150" cy="234" rx="80" ry="24" fill="url(#alCookie)"/>
+  <g fill="#F4EBDD" opacity="0.8">
+    <circle cx="120" cy="228" r="2.2"/><circle cx="150" cy="222" r="2.4"/><circle cx="180" cy="230" r="2"/>
+    <circle cx="130" cy="270" r="2"/><circle cx="165" cy="266" r="2.3"/>
+  </g>
+  <ellipse cx="270" cy="230" rx="66" ry="20" fill="url(#alCookie)"/>
+  <ellipse cx="270" cy="216" rx="62" ry="8" fill="url(#alDulce)"/>
+  <ellipse cx="270" cy="202" rx="66" ry="20" fill="url(#alCookie)"/>
+  <g fill="#F4EBDD" opacity="0.75">
+    <circle cx="248" cy="198" r="1.8"/><circle cx="272" cy="194" r="2"/><circle cx="292" cy="200" r="1.7"/>
+  </g>
+</svg>

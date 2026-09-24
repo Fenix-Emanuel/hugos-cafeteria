@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Sándwich HUGO'S">
+  <defs><linearGradient id="swBread" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DDAE68"/><stop offset="1" stop-color="#B8813E"/></linearGradient></defs>
+  <rect width="400" height="400" fill="#1A1716"/>
+  <ellipse cx="200" cy="310" rx="150" ry="20" fill="#000" opacity="0.3"/>
+  <g transform="rotate(-3 200 240)">
+    <rect x="80" y="270" width="240" height="24" rx="6" fill="url(#swBread)"/>
+    <rect x="86" y="248" width="228" height="22" rx="4" fill="#EFA83A"/>
+    <rect x="86" y="228" width="228" height="20" rx="3" fill="#7BAE49"/>
+    <rect x="86" y="206" width="228" height="22" rx="4" fill="#8C3A28"/>
+    <rect x="82" y="182" width="236" height="24" rx="6" fill="url(#swBread)"/>
+    <g stroke="#8C5A20" stroke-width="4" opacity="0.5"><line x1="92" y1="192" x2="308" y2="192"/><line x1="92" y1="200" x2="308" y2="200"/></g>
+  </g>
+  <g fill="#F0C23E" opacity="0.9"><circle cx="130" cy="256" r="3"/><circle cx="270" cy="258" r="3"/></g>
+</svg>
