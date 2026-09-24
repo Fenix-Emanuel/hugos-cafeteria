@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HUGO'S Cafetería | Coffee & Argentine Pastry, Austin TX</title>
+  <meta name="description" content="Specialty coffee, Argentine pastry and breakfast sandwiches in Austin, TX. A warm corner named after my dad.">
+  <meta name="theme-color" content="#170F0A">
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playball&family=Lora:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/beans.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/chat.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body id="top">
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to main content</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#top" aria-label="HUGO'S Cafetería">
+        <span class="brand__mark">HUGO'S</span>
+        <span>Cafetería</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="visually-hidden" data-i18n="nav.toggle">Menu</span>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-nav-menu data-i18n-aria-label="nav.label" aria-label="Main navigation">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="#menu" data-i18n="nav.menu">Menu</a></li>
+          <li><a class="site-nav__link" href="#about" data-i18n="nav.about">About</a></li>
+          <li><a class="site-nav__link" href="#reviews" data-i18n="nav.reviews">Reviews</a></li>
+          <li><a class="site-nav__link" href="#locations" data-i18n="nav.locations">Locations</a></li>
+        </ul>
+        <div class="lang-switch" role="group" data-i18n-aria-label="nav.language" aria-label="Language">
+          <button class="lang-switch__button" type="button" data-lang-option="en" aria-pressed="true" lang="en">EN</button>
+          <button class="lang-switch__button" type="button" data-lang-option="es" aria-pressed="false" lang="es">ES</button>
+        </div>
+        <button class="button button--primary" type="button" data-chat-open data-i18n="nav.cta">Order Now</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__scene beans-bg" aria-hidden="true">
+        <div class="bean" style="--x:32.4%; --size:9.2px; --duration:10.9s; --delay:-12.1s; --drift:3px; --rot:219deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:7.5%; --size:12.1px; --duration:7.2s; --delay:-7.4s; --drift:-39px; --rot:175deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:41.9%; --size:14.6px; --duration:7.7s; --delay:-10.1s; --drift:11px; --rot:312deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:56.2%; --size:11.2px; --duration:12.9s; --delay:-12.4s; --drift:32px; --rot:206deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:15.6%; --size:8.9px; --duration:8.9s; --delay:-2.4s; --drift:-29px; --rot:253deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:62.1%; --size:11.0px; --duration:10.3s; --delay:-12.2s; --drift:-40px; --rot:193deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:66.0%; --size:11.4px; --duration:8.9s; --delay:-5.4s; --drift:-4px; --rot:208deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:76.7%; --size:13.6px; --duration:8.5s; --delay:-5.5s; --drift:2px; --rot:300deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:70.6%; --size:10.3px; --duration:12.9s; --delay:-11.5s; --drift:-7px; --rot:281deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:16.3%; --size:11.9px; --duration:7.2s; --delay:-4.3s; --drift:24px; --rot:252deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:84.3%; --size:10.5px; --duration:11.2s; --delay:-5.3s; --drift:7px; --rot:233deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:81.0%; --size:15.6px; --duration:9.8s; --delay:-4.4s; --drift:-40px; --rot:272deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:62.8%; --size:15.9px; --duration:11.9s; --delay:-9.3s; --drift:-10px; --rot:267deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:4.1%; --size:11.7px; --duration:8.0s; --delay:-11.5s; --drift:-40px; --rot:283deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:14.2%; --size:10.0px; --duration:9.3s; --delay:-1.7s; --drift:-38px; --rot:232deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:53.6%; --size:15.1px; --duration:11.9s; --delay:-1.8s; --drift:-20px; --rot:226deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:35.7%; --size:15.1px; --duration:12.7s; --delay:-11.0s; --drift:-29px; --rot:197deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:23.9%; --size:11.9px; --duration:10.5s; --delay:-9.6s; --drift:-45px; --rot:227deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:36.7%; --size:12.5px; --duration:12.7s; --delay:-4.0s; --drift:1px; --rot:259deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:65.6%; --size:8.4px; --duration:12.4s; --delay:-2.9s; --drift:34px; --rot:288deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:38.9%; --size:11.2px; --duration:7.6s; --delay:-4.8s; --drift:-39px; --rot:171deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:21.6%; --size:9.3px; --duration:9.0s; --delay:-12.3s; --drift:-45px; --rot:184deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:11.5%; --size:10.9px; --duration:7.2s; --delay:-1.6s; --drift:10px; --rot:184deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:25.7%; --size:10.8px; --duration:9.2s; --delay:-11.4s; --drift:31px; --rot:319deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:45.8%; --size:11.9px; --duration:7.5s; --delay:-11.7s; --drift:-14px; --rot:202deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:79.9%; --size:9.3px; --duration:7.1s; --delay:-0.6s; --drift:3px; --rot:183deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:53.1%; --size:8.2px; --duration:10.2s; --delay:-0.3s; --drift:33px; --rot:271deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:26.5%; --size:10.9px; --duration:8.0s; --delay:-3.0s; --drift:3px; --rot:285deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:33.0%; --size:9.8px; --duration:11.9s; --delay:-0.2s; --drift:32px; --rot:289deg;"><div class="bean__shape"></div></div>
+        <div class="bean" style="--x:78.9%; --size:13.9px; --duration:8.4s; --delay:-6.3s; --drift:-13px; --rot:165deg;"><div class="bean__shape"></div></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="script" data-i18n="hero.script">Rich. Smooth. Perfect.</span>
+          <h1 class="hero__title" id="hero-title" data-i18n="hero.title">Coffee, Crafted <em>With Heart</em></h1>
+          <p class="hero__text" data-i18n="hero.text">Specialty coffee and Argentine pastry, made the way my dad taught me, brewed fresh for you every morning.</p>
+
+          <div class="hero__actions">
+            <button class="button button--primary" type="button" data-chat-open>
+              <span data-i18n="hero.order">Order Now</span>
+              <span class="button__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </button>
+            <a class="button button--secondary" href="#reserve">
+              <span data-i18n="hero.book">Book a Table</span>
+              <span class="button__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span>
+            </a>
+          </div>
+
+          <div class="trust-row">
+            <span class="trust-item">
+              <span class="trust-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><ellipse cx="12" cy="12" rx="6" ry="9"/><path d="M12 3v18"/></svg></span>
+              <span class="trust-item__label" data-i18n="trust.badge1">Premium<small>Quality Beans</small></span>
+            </span>
+            <span class="trust-item">
+              <span class="trust-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 2s6 5.5 6 11a6 6 0 0 1-12 0c0-2 1-3.5 2-5 .3 1.3 1 2 1 2C8 6.5 12 2 12 2Z"/></svg></span>
+              <span class="trust-item__label" data-i18n="trust.badge2">Expertly<small>Roasted</small></span>
+            </span>
+            <span class="trust-item">
+              <span class="trust-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.8 8.6c0 5-8.8 10-8.8 10s-8.8-5-8.8-10a4.6 4.6 0 0 1 8.8-2 4.6 4.6 0 0 1 8.8 2Z"/></svg></span>
+              <span class="trust-item__label" data-i18n="trust.badge3">Made With<small>Love</small></span>
+            </span>
+          </div>
+        </div>
+
+        <div class="hero__art">
+          <div class="hero__card">
+            <img src="assets/images/hero-photo.jpg" alt="" width="402" height="360">
+          </div>
+          <div class="season">
+            <span class="season__eyebrow" data-i18n="season.eyebrow">This season's coffee</span>
+            <span class="season__origin" data-i18n="season.origin">Huila, Colombia</span>
+            <span class="season__notes" data-i18n="season.notes">Caramel, red cherry and cocoa notes. Washed process.</span>
+            <span class="season__meta" data-i18n="season.meta">1,700 masl · Single origin</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== POR QUÉ ELEGIRNOS ===================== -->
+    <section class="section" style="padding-block: var(--space-6) var(--space-section);" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section__header section__header--center">
+          <p class="eyebrow" data-i18n="why.eyebrow">Why Choose Us</p>
+          <h2 class="section__title" id="why-title" data-i18n="why.title">What Makes HUGO'S Different</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why-item">
+            <span class="why-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><ellipse cx="12" cy="12" rx="6" ry="9"/><path d="M12 3v18"/></svg></span>
+            <p class="why-item__title" data-i18n="why.item1.title">Premium Quality Beans</p>
+            <p class="why-item__text" data-i18n="why.item1.text">We carefully select beans from small farms we trust, roasted in small batches.</p>
+          </div>
+          <div class="why-item">
+            <span class="why-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 21c4-1 6-4 6-8V5l-4 3M20 21c-4-1-6-4-6-8V5l4 3"/></svg></span>
+            <p class="why-item__title" data-i18n="why.item2.title">Cozy, Familiar Atmosphere</p>
+            <p class="why-item__text" data-i18n="why.item2.text">A room that feels like somebody's home, not just a coffee shop.</p>
+          </div>
+          <div class="why-item">
+            <span class="why-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 2 3 7l9 5 9-5-9-5Z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg></span>
+            <p class="why-item__title" data-i18n="why.item3.title">Argentine Recipes</p>
+            <p class="why-item__text" data-i18n="why.item3.text">Medialunas, alfajores and more, made the way we grew up eating them.</p>
+          </div>
+          <div class="why-item">
+            <span class="why-item__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></span>
+            <p class="why-item__title" data-i18n="why.item4.title">Friendly, Personal Service</p>
+            <p class="why-item__text" data-i18n="why.item4.text">We remember your order, and we're happy to see you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NOSOTROS ===================== -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about__media">
+        <img src="assets/images/about-photo.jpg" alt="" loading="lazy" width="1600" height="881">
+      </div>
+      <div class="about__body">
+        <span class="script" data-i18n="about.script">About Us</span>
+        <h2 class="about__title" id="about-title" data-i18n="about.title">A Place Named After My Dad</h2>
+        <p class="about__text" data-i18n="about.p1">My dad's name was Hugo. Growing up, our kitchen table was always the center of everything — coffee brewing in the morning, something sweet on the table, people coming and going. He had this way of making everyone feel welcome, like there was always room for one more.</p>
+        <p class="about__text" data-i18n="about.p2">When I moved to Texas, I carried that with me. HUGO'S Cafetería is my way of keeping that table going: specialty coffee done properly, the pastries I grew up eating, and a room that feels like somebody's home.</p>
+
+        <p style="margin-top: var(--space-5);">
+          <a class="button button--primary" href="#menu">
+            <span data-i18n="about.learnMore">Learn More</span>
+            <span class="button__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+        </p>
+
+        <div class="about__stats">
+          <div class="about__stat"><span class="about__stat-value" data-i18n="about.stat1value">3+</span><span class="about__stat-label" data-i18n="about.stat1label">Years in Texas</span></div>
+          <div class="about__stat"><span class="about__stat-value" data-i18n="about.stat2value">100%</span><span class="about__stat-label" data-i18n="about.stat2label">Baked In-House</span></div>
+          <div class="about__stat"><span class="about__stat-value" data-i18n="about.stat3value">2</span><span class="about__stat-label" data-i18n="about.stat3label">Countries, One Table</span></div>
+          <div class="about__stat"><span class="about__stat-value" data-i18n="about.stat4value">1</span><span class="about__stat-label" data-i18n="about.stat4label">Name That Started It All</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== POPULAR PICKS: recuadro con borde ===================== -->
+    <section class="section" id="menu-picks" aria-labelledby="picks-title">
+      <div class="container">
+        <div class="picks-frame">
+          <div class="section__header section__header--center" style="margin-bottom:0;">
+            <span class="script" data-i18n="picks.eyebrow">Our Signatures</span>
+            <h2 class="section__title" id="picks-title" data-i18n="picks.title">Popular Picks</h2>
+            <div class="picks__divider" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 8h11a3 3 0 0 1 0 6h-1M6 8v7a4 4 0 0 0 4 4h1a4 4 0 0 0 4-4v-1M4 4v4M8 4v4"/></svg>
+            </div>
+          </div>
+
+          <div class="picks__grid">
+            <article class="pick">
+              <div class="pick__media">
+                <span class="pick__rating"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6 6 .9-4.4 4.2 1 6-5.6-3-5.6 3 1-6L3 8.9 9 8z"/></svg>4.9</span>
+                <img src="assets/images/pick-latte.jpg" alt="" loading="lazy" width="800" height="800">
+              </div>
+              <div class="pick__body">
+                <span class="pick__name" data-i18n="dish.latte.name">HUGO'S Latte</span>
+                <span class="pick__desc" data-i18n="dish.latte.desc">Our signature latte, made with this season's single-origin coffee.</span>
+                <div class="pick__footer"><span class="pick__price">$5.25</span><button class="pick__add" type="button" data-chat-open aria-label="Order"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button></div>
+              </div>
+            </article>
+
+            <article class="pick">
+              <div class="pick__media">
+                <span class="pick__rating"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6 6 .9-4.4 4.2 1 6-5.6-3-5.6 3 1-6L3 8.9 9 8z"/></svg>5.0</span>
+                <img src="assets/images/pick-medialunas.jpg" alt="" loading="lazy" width="800" height="800">
+              </div>
+              <div class="pick__body">
+                <span class="pick__name" data-i18n="dish.medialunas.name">Medialunas de Manteca</span>
+                <span class="pick__desc" data-i18n="dish.medialunas.desc">Argentine butter croissants, baked fresh every morning.</span>
+                <div class="pick__footer"><span class="pick__price">$4.50</span><button class="pick__add" type="button" data-chat-open aria-label="Order"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button></div>
+              </div>
+            </article>
+
+            <article class="pick">
+              <div class="pick__media">
+                <span class="pick__rating"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6 6 .9-4.4 4.2 1 6-5.6-3-5.6 3 1-6L3 8.9 9 8z"/></svg>4.8</span>
+                <img src="assets/images/pick-sandwich.jpg" alt="" loading="lazy" width="800" height="800">
+              </div>
+              <div class="pick__body">
+                <span class="pick__name" data-i18n="dish.sandwich.name">HUGO'S Sandwich</span>
+                <span class="pick__desc" data-i18n="dish.sandwich.desc">Toasted breakfast sandwich with ham, cheese and roasted pepper.</span>
+                <div class="pick__footer"><span class="pick__price">$8.50</span><button class="pick__add" type="button" data-chat-open aria-label="Order"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button></div>
+              </div>
+            </article>
+
+            <article class="pick">
+              <div class="pick__media">
+                <span class="pick__rating"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6 6 .9-4.4 4.2 1 6-5.6-3-5.6 3 1-6L3 8.9 9 8z"/></svg>4.9</span>
+                <img src="assets/images/pick-alfajores.jpg" alt="" loading="lazy" width="800" height="800">
+              </div>
+              <div class="pick__body">
+                <span class="pick__name" data-i18n="dish.alfajores.name">Alfajores de Maicena</span>
+                <span class="pick__desc" data-i18n="dish.alfajores.desc">Cornstarch cookies filled with dulce de leche, a classic from home.</span>
+                <div class="pick__footer"><span class="pick__price">$3.75</span><button class="pick__add" type="button" data-chat-open aria-label="Order"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button></div>
+              </div>
+            </article>
+          </div>
+
+          <p style="text-align:center; margin-top: var(--space-6);">
+            <a class="button button--cream" href="#menu">
+              <span data-i18n="picks.viewMenu">View Full Menu</span>
+              <span class="button__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MENÚ COMPLETO ===================== -->
+    <section class="section section--surface" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section__header">
+          <p class="eyebrow" data-i18n="menu.eyebrow">The full menu</p>
+          <h2 class="section__title" id="menu-title" data-i18n="menu.title">Everything on the counter</h2>
+          <p class="section__intro" data-i18n="menu.intro">Our menu changes a little with the seasons, but this is the heart of it.</p>
+        </div>
+        <div class="menu__categories">
+          <div class="menu-category">
+            <h3 class="menu-category__title" data-i18n="menu.cat.drinks">Coffee & Drinks</h3>
+            <div class="menu__list">
+              <div class="menu-item"><span class="menu-item__name" data-i18n="menu.item.espresso.name">Espresso</span><span class="menu-item__price">$3.25</span><p class="menu-item__desc" data-i18n="menu.item.espresso.desc">This season's single-origin, pulled fresh.</p></div>
+              <div class="menu-item"><span class="menu-item__name" data-i18n="menu.item.cappuccino.name">Cappuccino</span><span class="menu-item__price">$4.50</span><p class="menu-item__desc" data-i18n="menu.item.cappuccino.desc">Espresso, steamed milk, a thick layer of foam.</p></div>
+              <div class="menu-item"><span class="menu-item__name" data-i18n="menu.item.latte.name">HUGO'S Latte</span><span class="menu-item__price">$5.25</span><p class="menu-item__desc" data-i18n="menu.item.latte.desc">Our signature latte, smooth and balanced.</p></div>
+              <div class="menu-item"><span class="menu-item__name" data-i18n="menu.item.cortado.name">Cortado</span><span class="menu-item__price">$4.00</span><p class="menu-item__desc" data-i18n="menu.item.cortado.desc">Equal parts espresso and warm milk.</p></div>
+              <div class="menu-item"><span class="menu-item__name"><span data-i18n="menu.item.icedcaramel.name">Iced Caramel Latte</span><span class="menu-item__badge" data-i18n="menu.badge.new">New</span></span><span class="menu-item__price">$5.75</span><p class="menu-item__desc" data-i18n="menu.item.icedcaramel.desc">Espresso, milk, house caramel, over ice.</p></div>
+              <div class="menu-item"><span class="menu-item__name" data-i18n="menu.item.mate.name">Mate Cocido</span><span class="menu-item__price">$3.50</span><p class="menu-item__desc" data-i18n="menu.item.mate.desc">Roasted yerba mate tea, honey on the side.</p></div>
+            </div>
+          </div>
+          <div class="menu-category">
+            <h3 class="menu-category__title" data-i18n="menu.cat.pastry">Argentine Pastry</h3>
+            <div class="menu__list">
+              <div class="menu-item"><span class="menu-item__name" data-i18n="menu.item.medialunas.name">Medialunas de Manteca (2 units)</span><span class="menu-item__price">$4.50</span><p class="menu-item__desc" data-i18n="menu.item.medialunas.desc">Argentine butter croissants, baked fresh every morning.</p></div>
+              <div class="menu-item"><span class="menu-item__name" data-i18n="menu.item.alfajores.name">Alfajores de Maicena (2 units)</span><span class="menu-item__price">$3.75</span><p class="menu-item__desc" data-i18n="menu.item.alfajores.desc">Cornstarch cookies filled with dulce de leche.</p></div>
+              <div class="menu-item"><span class="menu-item__name"><span data-i18n="menu.item.chipa.name">Chipá (3 units)</span><span class="menu-item__badge" data-i18n="menu.badge.gf">Gluten-free</span></span><span class="menu-item__price">$4.25</span><p class="menu-item__desc" data-i18n="menu.item.chipa.desc">Warm cheese bread, gluten-free, naturally.</p></div>
+              <div class="menu-item"><span class="menu-item__name" data-i18n="menu.item.pastelcrema.name">Pastelito de Crema</span><span class="menu-item__price">$3.95</span><p class="menu-item__desc" data-i18n="menu.item.pastelcrema.desc">Puff pastry filled with pastry cream.</p></div>
+            </div>
+          </div>
+          <div class="menu-category">
+            <h3 class="menu-category__title" data-i18n="menu.cat.savory">Sandwiches & Toasts</h3>
+            <div class="menu__list">
+              <div class="menu-item"><span class="menu-item__name" data-i18n="menu.item.hugosandwich.name">HUGO'S Sandwich</span><span class="menu-item__price">$8.50</span><p class="menu-item__desc" data-i18n="menu.item.hugosandwich.desc">Toasted ham, cheese and roasted pepper.</p></div>
+              <div class="menu-item"><span class="menu-item__name" data-i18n="menu.item.avotoast.name">Avocado Toast</span><span class="menu-item__price">$7.75</span><p class="menu-item__desc" data-i18n="menu.item.avotoast.desc">Sourdough, avocado, chili flakes, lime.</p></div>
+              <div class="menu-item"><span class="menu-item__name" data-i18n="menu.item.milanesasandwich.name">Milanesa Sandwich</span><span class="menu-item__price">$9.50</span><p class="menu-item__desc" data-i18n="menu.item.milanesasandwich.desc">Breaded steak, lettuce, tomato, mayo, on campo bread.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== HAPPY HOUR / PROMO ===================== -->
+    <section class="section" aria-labelledby="promo-title">
+      <div class="container">
+        <div class="promo">
+          <div class="promo__media">
+            <img src="assets/images/promo-photo.jpg" alt="" loading="lazy" width="862" height="360" style="object-position:center 42%;">
+          </div>
+          <div class="promo__body">
+            <p class="promo__eyebrow" data-i18n="promo.eyebrow">Weekday Special</p>
+            <h2 class="promo__title" id="promo-title" data-i18n="promo.title">Family Hour</h2>
+            <p class="promo__time" data-i18n="promo.time">4PM – 6PM, Tue – Fri</p>
+            <p class="promo__text" data-i18n="promo.text">Bring the whole family. 20% off pastry when you order any coffee, every weekday afternoon.</p>
+            <div class="promo__perks">
+              <div class="promo__perk">
+                <span class="promo__perk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20c8 0 12-6 12-14 0 0-10-1-12 9"/><path d="M4 20c0-4 2-7 5-9"/></svg></span>
+                <span class="promo__perk-title" data-i18n="promo.perk1title">Fresh Daily</span>
+                <span class="promo__perk-text" data-i18n="promo.perk1text">Every batch baked that morning.</span>
+              </div>
+              <div class="promo__perk">
+                <span class="promo__perk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20.8 8.6c0 5-8.8 10-8.8 10s-8.8-5-8.8-10a4.6 4.6 0 0 1 8.8-2 4.6 4.6 0 0 1 8.8 2Z"/></svg></span>
+                <span class="promo__perk-title" data-i18n="promo.perk2title">Cozy Ambience</span>
+                <span class="promo__perk-text" data-i18n="promo.perk2text">A warm space to relax and unwind.</span>
+              </div>
+              <div class="promo__perk">
+                <span class="promo__perk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></span>
+                <span class="promo__perk-title" data-i18n="promo.perk3title">Friendly Service</span>
+                <span class="promo__perk-text" data-i18n="promo.perk3text">We're happy you're here.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIOS ===================== -->
+    <section class="section section--surface" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="section__header section__header--center">
+          <p class="eyebrow" data-i18n="reviews.eyebrow">What People Say</p>
+          <h2 class="section__title" id="reviews-title" data-i18n="reviews.title">A Preview of What to Expect</h2>
+          <p class="section__intro" data-i18n="reviews.intro">We haven't opened yet, so these are placeholder reviews showing the kind of experience we're building toward — swap them for real ones once the doors open.</p>
+        </div>
+
+        <div class="testimonials__grid">
+          <div class="testimonial">
+            <span class="testimonial__quote"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h4v6H8a3 3 0 0 0 3 3v3a6 6 0 0 1-6-6V7Zm9 0h4v6h-3a3 3 0 0 0 3 3v3a6 6 0 0 1-6-6V7Z"/></svg></span>
+            <p class="testimonial__text" data-i18n="review1.text">"The medialunas taste exactly like the ones back home. This is going to be my regular spot."</p>
+            <div class="testimonial__footer">
+              <span class="testimonial__avatar">E</span>
+              <div>
+                <p class="testimonial__name" data-i18n="review1.name">Early Supporter</p>
+                <p class="testimonial__role" data-i18n="review1.role">Beta Tester</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial testimonial--featured">
+            <span class="testimonial__badge" data-i18n="reviews.badge">Sample</span>
+            <span class="testimonial__quote"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h4v6H8a3 3 0 0 0 3 3v3a6 6 0 0 1-6-6V7Zm9 0h4v6h-3a3 3 0 0 0 3 3v3a6 6 0 0 1-6-6V7Z"/></svg></span>
+            <p class="testimonial__text" data-i18n="review2.text">"Loved the story behind the name. You can tell this place means something to the owner."</p>
+            <div class="testimonial__footer">
+              <span class="testimonial__avatar">E</span>
+              <div>
+                <p class="testimonial__name" data-i18n="review2.name">Early Supporter</p>
+                <p class="testimonial__role" data-i18n="review2.role">Beta Tester</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <span class="testimonial__quote"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h4v6H8a3 3 0 0 0 3 3v3a6 6 0 0 1-6-6V7Zm9 0h4v6h-3a3 3 0 0 0 3 3v3a6 6 0 0 1-6-6V7Z"/></svg></span>
+            <p class="testimonial__text" data-i18n="review3.text">"The latte art alone is worth the visit. Can't wait for opening day."</p>
+            <div class="testimonial__footer">
+              <span class="testimonial__avatar">E</span>
+              <div>
+                <p class="testimonial__name" data-i18n="review3.name">Early Supporter</p>
+                <p class="testimonial__role" data-i18n="review3.role">Beta Tester</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BANDA CTA ===================== -->
+    <section class="section" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-band">
+          <div>
+            <h2 class="cta-band__title" id="cta-title" data-i18n="cta.title">Ready to Meet Us in Austin?</h2>
+            <p class="cta-band__text" data-i18n="cta.text">Follow along for our opening date, or reach out now with questions, catering requests, or just to say hi.</p>
+            <p style="margin-top: var(--space-5);">
+              <button class="button button--primary" type="button" data-chat-open>
+                <span data-i18n="cta.button">Get in Touch</span>
+                <span class="button__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </button>
+            </p>
+          </div>
+          <div class="cta-band__media">
+            <img src="assets/images/cta-photo.jpg" alt="" loading="lazy" width="540" height="360">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== UBICACIONES ===================== -->
+    <section class="section section--surface" id="locations" aria-labelledby="locations-title">
+      <div class="container">
+        <div class="section__header">
+          <p class="eyebrow" data-i18n="locations.eyebrow">Find us</p>
+          <h2 class="section__title" id="locations-title" data-i18n="locations.title">Two countries, one table</h2>
+          <p class="section__intro" data-i18n="locations.intro">We're opening here in Austin first, and already planning the next HUGO'S in Argentina.</p>
+        </div>
+        <div class="locations__grid">
+          <div class="location-card">
+            <span class="location-card__status location-card__status--open" data-i18n="locations.austin.status">Opening Soon</span>
+            <h3 class="location-card__city" data-i18n="locations.austin.city">Austin, TX</h3>
+            <p class="location-card__text" data-i18n="locations.austin.text">Exact address shared upon ordering or reservation.</p>
+            <dl class="hours-list">
+              <div class="hours-row"><dt class="hours-row__day" data-i18n="locations.day.montofri">Mon – Fri</dt><dd>7:00 AM – 6:00 PM</dd></div>
+              <div class="hours-row"><dt class="hours-row__day" data-i18n="locations.day.satsun">Sat – Sun</dt><dd>8:00 AM – 5:00 PM</dd></div>
+            </dl>
+          </div>
+          <div class="location-card">
+            <span class="location-card__status location-card__status--soon" data-i18n="locations.argentina.status">Coming later</span>
+            <h3 class="location-card__city" data-i18n="locations.argentina.city">Argentina</h3>
+            <p class="location-card__text" data-i18n="locations.argentina.text">We're scouting the right corner for the second HUGO'S. Follow along for updates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PEDIR / CONSULTAR ===================== -->
+    <section class="section" id="reserve" aria-labelledby="reserve-title">
+      <div class="container reserve__grid">
+        <div>
+          <p class="eyebrow" data-i18n="reserve.eyebrow">Get in Touch</p>
+          <h2 class="section__title" id="reserve-title" data-i18n="reserve.title">Tell us what you need</h2>
+          <p class="reserve__text" data-i18n="reserve.text">Order ahead for pickup, ask about catering, or just say hi. We'll reply on WhatsApp.</p>
+          <p style="margin-top: var(--space-5);">
+            <button class="button button--secondary" type="button" data-chat-open data-i18n="reserve.chat">Start on WhatsApp</button>
+          </p>
+        </div>
+
+        <form class="form" id="reserve-form" novalidate>
+          <div class="field">
+            <label class="field__label" for="field-name" data-i18n="form.name">Your name</label>
+            <input class="field__input" id="field-name" name="name" type="text" autocomplete="name" required aria-describedby="field-name-error">
+            <p class="field__error" id="field-name-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label class="field__label" for="field-reason" data-i18n="form.reason">What do you need?</label>
+            <select class="field__input" id="field-reason" name="reason" required aria-describedby="field-reason-error">
+              <option value="" disabled selected>—</option>
+              <option value="pickup" data-i18n="form.reason.pickup">Order for pickup</option>
+              <option value="catering" data-i18n="form.reason.catering">Catering / large order</option>
+              <option value="event" data-i18n="form.reason.event">Private event</option>
+              <option value="question" data-i18n="form.reason.question">General question</option>
+            </select>
+            <p class="field__error" id="field-reason-error" aria-live="polite"></p>
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <label class="field__label" for="field-date" data-i18n="form.date">Date</label>
+              <input class="field__input" id="field-date" name="date" type="date" required aria-describedby="field-date-error">
+              <p class="field__error" id="field-date-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label class="field__label" for="field-time" data-i18n="form.time">Time</label>
+              <input class="field__input" id="field-time" name="time" type="time" required aria-describedby="field-time-error">
+              <p class="field__error" id="field-time-error" aria-live="polite"></p>
+            </div>
+          </div>
+          <div class="field">
+            <label class="field__label" for="field-notes" data-i18n="form.notes">Notes (optional)</label>
+            <textarea class="field__input" id="field-notes" name="notes" rows="3" data-i18n-placeholder="form.notesPlaceholder" placeholder="Items, quantities, allergies, anything we should know."></textarea>
+          </div>
+          <button class="button button--primary" type="submit" data-i18n="form.submit">Send on WhatsApp</button>
+          <p class="form__note" data-i18n="form.note">This opens WhatsApp with your request ready to send. We'll confirm there.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__newsletter">
+        <p class="site-footer__newsletter-title" data-i18n="footer.newsletter.eyebrow">Stay in the Loop</p>
+        <p class="site-footer__newsletter-text" data-i18n="footer.newsletter.text">New seasonal coffees, specials and our opening date. We'll message you on WhatsApp, nothing else.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input class="field__input" type="text" name="newsletter-name" data-i18n-placeholder="footer.newsletter.placeholder" placeholder="Your name" required>
+          <button class="button button--primary" type="submit">
+            <span data-i18n="footer.newsletter.cta">Join</span>
+            <span class="button__icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </button>
+        </form>
+      </div>
+
+      <div class="site-footer__grid">
+        <div>
+          <a class="brand" href="#top" aria-label="HUGO'S Cafetería">
+            <span class="brand__mark">HUGO'S</span>
+            <span>Cafetería</span>
+          </a>
+          <p class="site-footer__text" style="margin-top: var(--space-3); max-width: 22rem;" data-i18n="footer.tagline">Coffee, pastry and Hugo's table.</p>
+        </div>
+        <div>
+          <p class="site-footer__col-title" data-i18n="footer.col.explore">Quick Links</p>
+          <nav class="site-footer__links">
+            <a href="#top" data-i18n="footer.link.home">Home</a>
+            <a href="#menu" data-i18n="nav.menu">Menu</a>
+            <a href="#about" data-i18n="nav.about">About</a>
+            <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
+          </nav>
+        </div>
+        <div>
+          <p class="site-footer__col-title" data-i18n="footer.col.visit">Visit</p>
+          <nav class="site-footer__links">
+            <span data-i18n="locations.austin.city">Austin, TX</span>
+            <span data-i18n="locations.austin.text">Exact address shared upon ordering or reservation.</span>
+            <a href="#locations" data-i18n="nav.locations">See locations</a>
+          </nav>
+        </div>
+        <div>
+          <p class="site-footer__col-title" data-i18n="footer.col.contact">Contact Us</p>
+          <nav class="site-footer__links">
+            <a href="#" data-whatsapp data-phone>WhatsApp</a>
+            <a href="mailto:hello@hugoscafeteria.com">hello@hugoscafeteria.com</a>
+          </nav>
+          <div class="site-footer__social">
+            <a href="#" aria-label="Instagram" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+            <a href="#" aria-label="Facebook" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 8h-2a2 2 0 0 0-2 2v10M9 13h6"/><path d="M15 4H9a5 5 0 0 0-5 5v6a5 5 0 0 0 5 5h6a5 5 0 0 0 5-5V9a5 5 0 0 0-5-5Z"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__inner" style="padding-top: var(--space-5);">
+        <p class="site-footer__text" data-i18n="footer.rights">© 2026 HUGO'S Cafetería. All rights reserved.</p>
+        <p class="site-footer__text" data-i18n="footer.fictional">This is a concept coffee shop — not yet open.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== CHAT ===================== -->
+  <div class="chat">
+    <section class="chat__panel" id="chat-panel" data-chat-panel role="dialog" aria-labelledby="chat-title" hidden>
+      <header class="chat__header">
+        <div>
+          <h2 class="chat__title" id="chat-title" data-i18n="chat.title">HUGO'S Cafetería</h2>
+          <p class="chat__subtitle" data-i18n="chat.subtitle">Answer a few questions and we'll get back to you on WhatsApp.</p>
+        </div>
+        <button class="chat__close" type="button" data-chat-close data-i18n-aria-label="chat.close" aria-label="Close chat">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </header>
+      <div class="chat__log" data-chat-log role="log"></div>
+      <div class="chat__options" data-chat-options></div>
+      <div class="chat__footer">
+        <a href="#reserve" data-whatsapp data-i18n="chat.direct">Talk to us directly</a>
+      </div>
+    </section>
+    <button class="chat__toggle" type="button" aria-expanded="false" aria-controls="chat-panel" data-chat-toggle>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.800 7L4 20.500l1.500-4.800A8 8 0 1 1 21 12z"/></svg>
+      <span data-i18n="chat.open">Order Now</span>
+    </button>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
