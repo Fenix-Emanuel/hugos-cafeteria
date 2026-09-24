@@ -1,0 +1,25 @@
+.container { width: min(100% - (var(--gutter) * 2), 74rem); margin-inline: auto; }
+.container--narrow { max-width: 46rem; margin-inline: auto; }
+
+.section { padding-block: var(--space-section); }
+.section--surface { background: var(--color-surface); border-block: 1px solid var(--color-line); }
+.section__header { max-width: 40rem; margin-bottom: var(--space-6); }
+.section__header--center { margin-inline: auto; text-align: center; }
+.section__title { font-size: var(--text-2xl); }
+.section__intro { margin-top: var(--space-3); color: var(--color-ink-soft); }
+
+/* Hero: header sticky normal, texto a la izquierda, tarjeta clara a la derecha */
+.hero { position: relative; overflow: hidden; }
+.hero__inner { position: relative; z-index: 2; display: grid; gap: var(--space-6); align-items: center; padding-block: var(--space-6) var(--space-7); }
+
+/* "Nosotros": panel de foto a sangre + contenido */
+.about { display: grid; background: var(--color-surface); }
+
+.dishes__grid { display: grid; gap: var(--space-6); }
+.menu__categories { display: grid; gap: var(--space-6); }
+.menu__list { display: grid; gap: var(--space-4); }
+.locations__grid { display: grid; gap: var(--space-5); }
+.testimonials__grid { display: grid; gap: var(--space-5); }
+
+.site-footer { padding-block: var(--space-6) 5.5rem; background: var(--color-paper); border-top: 1px solid var(--color-line); color: var(--color-ink-soft); }
+.site-footer__inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-4) var(--space-6); }

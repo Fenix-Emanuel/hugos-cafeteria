@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Variables: HUGO'S Cafetería. Mezcla de 3 referencias: marrón oscuro base,
+   dorado como acento, y una tarjeta clara/crema como contraste puntual.
+   ========================================================================== */
+:root {
+  color-scheme: dark;
+
+  --color-paper: #0C0A08;
+  --color-surface: #121010;
+  --color-surface-raised: #1A1716;
+  --color-ink: #F5EDE1;
+  --color-ink-soft: #A79C93;
+  --color-line: #2A2624;
+
+  --color-accent: #C99764;
+  --color-accent-strong: #DCB483;
+  --color-accent-soft: #2A2015;
+  --color-on-accent: #211406;
+
+  /* Tarjeta clara de contraste (hero, fondos diagonales de producto) */
+  --color-cream: #EFE6D6;
+  --color-cream-strong: #F8F2E7;
+  --color-cream-ink: #2A1D10;
+
+  --color-olive: #7C8552;
+  --color-olive-soft: #232616;
+  --color-error: #E08A6B;
+  --color-star: #E7B14F;
+
+  --font-script: 'Playball', cursive;
+  --font-display: 'Lora', Georgia, 'Times New Roman', serif;
+  --font-body: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: clamp(1.125rem, 1.05rem + 0.4vw, 1.3125rem);
+  --text-xl: clamp(1.3rem, 1.15rem + 0.7vw, 1.65rem);
+  --text-2xl: clamp(1.75rem, 1.4rem + 1.6vw, 2.6rem);
+  --text-hero: clamp(2.4rem, 1.5rem + 4vw, 3.9rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2.5rem;
+  --space-7: 4rem;
+  --space-section: clamp(3.5rem, 2.5rem + 5vw, 7rem);
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+  --shadow-panel: 0 18px 50px rgba(0, 0, 0, 0.5);
+  --shadow-gold: 0 10px 28px rgba(201, 151, 100, 0.28);
+
+  --header-height: 4.25rem;
+  --gutter: 1.25rem;
+}
